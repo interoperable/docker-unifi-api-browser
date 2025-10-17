@@ -1,0 +1,42 @@
+name: Create GitLab Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-gitlab-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check if GitLab project exists
+        id: check_project
+        run: |
+          PROJECT_NAME="your-gitlab-project-name" # Replace with your desired project name
+          GITLAB_API_URL="https://gitlab.com/api/v4/projects?search=${PROJECT_NAME}"
+          response=$(curl -s --header "Private-Token: ${{ secrets.GITLAB_TOKEN }}" "${GITLAB_API_URL}")
+          
+          if echo "$response" | grep -q "\"name\":\"${PROJECT_NAME}\""; then
+            echo "Project '${PROJECT_NAME}' already exists. Skipping creation."
+            echo "project_exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Project '${PROJECT_NAME}' does not exist. Proceeding with creation."
+            echo "project_exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitLab project if it doesn't exist
+        if: ${{ steps.check_project.outputs.project_exists == 'false' }}
+        run: |
+          PROJECT_NAME="your-gitlab-project-name" # Replace with your desired project name
+          VISIBILITY="private" # or public, internal
+          
+          curl -s --request POST \
+            --header "Private-Token: ${{ secrets.GITLAB_TOKEN }}" \
+            --header "Content-Type: application/json" \
+            --data '{ "name": "${PROJECT_NAME}", "visibility": "${VISIBILITY}" }' \
+            "https://gitlab.com/api/v4/projects"
+          
+          echo "GitLab project '${PROJECT_NAME}' created successfully."

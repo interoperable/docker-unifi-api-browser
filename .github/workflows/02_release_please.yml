@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+name: 02_release_please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: release-please
+        id: release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: simple
+          package-name: release
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+          token: ${{ secrets.GITHUB_TOKEN }}
