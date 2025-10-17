@@ -1,6 +1,6 @@
-# docker-Unifi-API-Browser
+# docker-unifi-api-browser
 
- Docker for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
+ Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
 
 Includes support for UniFiOS on UDMP - see note on ports
 
