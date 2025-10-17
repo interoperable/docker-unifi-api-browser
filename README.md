@@ -6,13 +6,14 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 <!-- END BADGIE TIME -->
 
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-unifi-api-browser)
+[![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)](./License)
+![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-unifi-api-browser)
 ![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/01_lint_dockerfile.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![02_release_please workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/02_release_please.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![03_ci workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![nightly](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
-![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)
 ![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-unifi-api-browser?icon=github&label=stars)
 ![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-unifi-api-browser)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
