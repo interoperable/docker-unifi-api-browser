@@ -15,7 +15,6 @@
 [![Docker Build Status](https://img.shields.io/docker/build/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/builds/)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/unifi-api-browser/)
 
-
  Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
 
 Includes support for UniFiOS on UDMP - see note on ports
