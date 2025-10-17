@@ -46,7 +46,7 @@ The API Browser lets you pull raw, JSON formatted data from the API running on y
 ## Getting Running
 To get started this is the minimum number of options, be sure to append each envar with the required text (esp the SHA512):
 
-`docker run --name unifiapibrowser -p:8000:8000 -e USER= -e PASSWORD= -e UNIFIURL= -e APIBROWSERPASS=    scyto/unifibrowser`
+`docker run --name unifi-api-browser -p:8000:8000 -e USER= -e PASSWORD= -e UNIFIURL= -e APIBROWSERPASS=    interoperable/unifi-api-browser`
 
 This will run the container on host port 8000/tcp.
 
