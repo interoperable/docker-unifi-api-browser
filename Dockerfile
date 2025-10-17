@@ -1,7 +1,8 @@
 # Use alpine base image
-FROM alpine:latest
+FROM alpine:3
 
 # Copy the current directory contents into the container at /
+WORKDIR /files
 COPY /files .
 
 # Install any needed packages
