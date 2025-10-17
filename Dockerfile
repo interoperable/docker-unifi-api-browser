@@ -10,13 +10,19 @@ LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.source="https://github.com/interoperable/docker-unifi-api-browser"
 WORKDIR /app
 COPY /files .
-RUN apk update \
-  && apk add --no-cache php=8.3.26-r0 php-session=8.3.26-r0 php-curl=8.3.26-r0 php-tokenizer=8.3.26-r0 composer=2.8.12-r0 git=2.49.1-r0 \
-  && git clone --depth 1 https://github.com/Art-of-Wifi/UniFi-API-browser.git \
-  && apk del git \
-  && chmod +x start.sh \
-  && mv config.php UniFi-API-browser/config \
-  && mv users.php UniFi-API-browser/config
+RUN apk update && \
+    apk add --no-cache \
+        php>8.3.26-r0 \
+        php-session>8.3.26-r0 \
+        php-curl>8.3.26-r0 \
+        php-tokenizer>8.3.26-r0 \
+        composer>2.8.12-r0 \
+        git>2.49.1-r0 \
+    && git clone --depth 1 https://github.com/Art-of-Wifi/UniFi-API-browser.git \
+    && apk del git \
+    && chmod +x start.sh \
+    && mv config.php UniFi-API-browser/config \
+    && mv users.php UniFi-API-browser/config
 
 # Define environment variable
 ENV PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
