@@ -11,7 +11,7 @@ LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
 WORKDIR /app
 COPY /files .
 RUN apk update \
-  && apk add --no-cache php~=3.* php-session~=8.* php-curl~=8.* php-tokenizer~=8.* composer~=2.* git~=2.* \
+  && apk add --no-cache php=8.3.26-r0 php-session=8.3.26-r0 php-curl=8.3.26-r0 php-tokenizer=8.3.26-r0 composer=2.8.12-r0 git=2.49.1-r0 \
   && git clone --depth 1 https://github.com/Art-of-Wifi/UniFi-API-browser.git \
   && apk del git \
   && chmod +x start.sh \
