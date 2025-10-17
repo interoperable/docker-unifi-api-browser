@@ -1,6 +1,6 @@
 # docker-unifi-api-browser
 
-A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
+A Dockerfile and continer build for [Unifi API Browser](https://github.com/Art-of-WiFi/UniFi-API-browser)
 
 <!-- BADGIE TIME -->
 <!-- END BADGIE TIME -->
