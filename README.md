@@ -1,5 +1,7 @@
 # docker-unifi-api-browser
 
+A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
+
 <!-- BADGIE TIME -->
 <!-- END BADGIE TIME -->
 ![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/01_lint_dockerfile.yml/badge.svg?label=build&style=flat-square&branch=main)
@@ -16,11 +18,10 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 
 
- Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiFi/UniFi-API-browser>
 
 Includes support for UniFiOS on UDMP - see note on ports
 
- The API Browser lets you pull raw, JSON formatted data from the API running on your controller.
+The API Browser lets you pull raw, JSON formatted data from the API running on your controller.
 
 ## Required Environment Variables
  To run this container you will need to define the following variables:
