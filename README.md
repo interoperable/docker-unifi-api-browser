@@ -4,7 +4,9 @@
 ![02_release_please workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/02_release_please.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![03_ci workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![nightly](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
-[![License](https://img.shields.io/github/license/dockerfile-unifi-api-browser.svg)](./LICENSE)
+<!-- BADGIE TIME -->
+<!-- END BADGIE TIME -->
+![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-unifi-api-browser)
 [![Latest version](https://img.shields.io/github/tag/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
 
