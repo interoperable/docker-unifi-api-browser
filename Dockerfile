@@ -8,10 +8,9 @@ LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.licenses=Apache-2.0 \
       org.opencontainers.image.url="https://github.com/interoperable/docker-unifi-api-browser" \
       org.opencontainers.image.source="https://github.com/interoperable/docker-unifi-api-browser"
-
+WORKDIR /app
 
 # Copy the current directory contents into the container at /
-WORKDIR /app
 COPY /files .
 
 # Install any needed packages
