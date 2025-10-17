@@ -4,19 +4,31 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 
 <!-- BADGIE TIME -->
 <!-- END BADGIE TIME -->
-![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/01_lint_dockerfile.yml/badge.svg?label=build&style=flat-square&branch=main)
-![02_release_please workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/02_release_please.yml/badge.svg?label=build&style=flat-square&branch=main)
-![03_ci workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
-![nightly](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
-![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)
-[![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-unifi-api-browser)
-[![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
-![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
-[![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
-[![Docker Automated build](https://img.shields.io/docker/automated/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/autobuild/)
-[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/unifi-api-browser/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 
+[![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-interopbot)
+![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg?label=build&style=flat-square&branch=main)
+![02_release_please workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg?label=build&style=flat-square&branch=main)
+![03_ci workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
+![nightly](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
+[![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/network)
+![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon=github&label=forks)
+[![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
+[![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
+![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
+![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-interopbot?icon=github&label=stars)
+![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
+[![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/network)
+![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon=github&label=forks)
+
+
+[![Docker Pulls](https://badgen.net/docker/pulls/interoperable/interopbot?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/interopbot)
+[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://hub.docker.com/r/interoperable/interopbot)
+[![Docker Stars](https://badgen.net/docker/stars/interoperable/interopbot?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/interopbot/)
+[![Docker Image Size](https://badgen.net/docker/size/interoperable/interopbot?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/interopbot/)
+[![Docker Automated build](https://img.shields.io/docker/automated/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/autobuild/)
+[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/interopbot/)
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-interopbot/issues)
 
 
 Includes support for UniFiOS on UDMP - see note on ports
