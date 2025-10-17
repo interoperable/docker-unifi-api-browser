@@ -1,8 +1,17 @@
 # Use alpine base image
 FROM alpine:3
+# https://www.docker.com/blog/docker-best-practices-using-tags-and-labels-to-manage-docker-image-sprawl/
+LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
+      org.opencontainers.image.description="A Unifi Api Browser container for by Interoperable Systems" \
+      org.opencontainers.image.ref.name="Unifi API Browser" \
+      org.opencontainers.image.version="${DOCKER_TAG_DATE}" \
+      org.opencontainers.image.licenses=Apache-2.0 \
+      org.opencontainers.image.url="https://github.com/interoperable/docker-unifi-api-browser" \
+      org.opencontainers.image.source="https://github.com/interoperable/docker-unifi-api-browser"
+
 
 # Copy the current directory contents into the container at /
-WORKDIR /files
+WORKDIR /app
 COPY /files .
 
 # Install any needed packages
