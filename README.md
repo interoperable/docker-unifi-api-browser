@@ -23,8 +23,6 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 [![Docker Stars](https://badgen.net/docker/stars/interoperable/unifi-api-browser?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/unifi-api-browser/)
 [![Docker Image Size](https://badgen.net/docker/size/interoperable/unifi-api-browser?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/unifi-api-browser/)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/autobuild/)
-[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/unifi-api-browser/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 
 
 Includes support for UniFiOS on UDMP - see note on ports
