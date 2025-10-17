@@ -10,8 +10,6 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 ![02_release_please workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/02_release_please.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![03_ci workflow](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![nightly](https://github.com/interoperable/dockerfile-unifi-api-browser/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
-[![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
-![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-unifi-api-browser?icon=github&label=forks)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)
@@ -19,15 +17,12 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 ![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-unifi-api-browser)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
 ![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-unifi-api-browser?icon=github&label=forks)
-
-
 [![Docker Pulls](https://badgen.net/docker/pulls/interoperable/unifi-api-browser?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/unifi-api-browser)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://hub.docker.com/r/interoperable/unifi-api-browser)
 [![Docker Stars](https://badgen.net/docker/stars/interoperable/unifi-api-browser?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/unifi-api-browser/)
 [![Docker Image Size](https://badgen.net/docker/size/interoperable/unifi-api-browser?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/unifi-api-browser/)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/autobuild/)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/unifi-api-browser/)
-
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 
 
