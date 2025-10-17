@@ -1,0 +1,6 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://gitlab.com/saferatday0/badgie
+    rev: "0.14.2"
+    hooks:
+      - id: badgie
