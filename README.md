@@ -8,10 +8,8 @@
 <!-- END BADGIE TIME -->
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-unifi-api-browser)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-unifi-api-browser)
-[![Latest version](https://img.shields.io/github/tag/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
-
-![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
-
+[![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
+![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot/network)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/ppouliot/https://github.com/interoperable/dockerfile-unifi-api-browser/network)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/autobuild/)
 [![Docker Build Status](https://img.shields.io/docker/build/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/builds/)
