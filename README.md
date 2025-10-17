@@ -33,7 +33,7 @@ This is the fastest way to get running for unifios and doesn't require the use o
 ```
 version: '3.8'
 services:
-  unifiapibrowser:
+  unifi-api-browser:
     ports:
     - 8010:8000
     environment:
@@ -43,7 +43,7 @@ services:
       UNIFIURL: https://192.168.1.1
       PORT: 443
       DISPLAYNAME: Home
-    image: scyto/unifibrowser
+    image: interoperable/unifi-api-browser
  ```   
 
 ## Using Multiple Unifi Controllers
