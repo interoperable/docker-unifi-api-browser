@@ -9,12 +9,7 @@ LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.url="https://github.com/interoperable/docker-unifi-api-browser" \
       org.opencontainers.image.source="https://github.com/interoperable/docker-unifi-api-browser"
 WORKDIR /app
-
-# Copy the current directory contents into the container at /
 COPY /files .
-
-# Install any needed packages
-
 RUN apk update \
   && apk add --no-cache php=* php-session=* php-curl=* php-tokenizer=* composer=* git=* \
   && git clone --depth 1 https://github.com/Art-of-Wifi/UniFi-API-browser.git \
