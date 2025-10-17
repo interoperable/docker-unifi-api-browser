@@ -23,7 +23,6 @@ RUN apk update && \
     && chmod +x start.sh \
     && mv config.php UniFi-API-browser/config \
     && mv users.php UniFi-API-browser/config
-
 # Define environment variable
 ENV PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 ENV LANG="C.UTF-8"
