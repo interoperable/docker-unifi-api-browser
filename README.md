@@ -12,7 +12,6 @@
 ![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/autobuild/)
-[![Docker Build Status](https://img.shields.io/docker/build/interoperable/unifi-api-browser.svg)](https://hub.docker.com/v2/repositories/interoperable/unifi-api-browser/builds/)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/unifi-api-browser/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 
