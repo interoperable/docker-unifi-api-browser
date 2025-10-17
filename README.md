@@ -15,9 +15,9 @@ A Dockerfile and continer build for unifi browser <https://github.com/Art-of-WiF
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-unifi-api-browser.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-unifi-api-browser/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/issues)
 ![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-unifi-api-browser?icon=github&label=stars)
-![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-unifi-api-browser)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-unifi-api-browser.svg)](https://github.com/interoperable/dockerfile-unifi-api-browser/network)
 ![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-unifi-api-browser?icon=github&label=forks)
+
 [![Docker Pulls](https://badgen.net/docker/pulls/interoperable/unifi-api-browser?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/unifi-api-browser)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/unifi-api-browser.svg?style=plastic)](https://hub.docker.com/r/interoperable/unifi-api-browser)
 [![Docker Stars](https://badgen.net/docker/stars/interoperable/unifi-api-browser?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/unifi-api-browser/)
