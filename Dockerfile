@@ -1,3 +1,4 @@
+# syntax = docker/dockerfile:1.3
 # Use alpine base image
 FROM alpine:3
 # https://www.docker.com/blog/docker-best-practices-using-tags-and-labels-to-manage-docker-image-sprawl/
